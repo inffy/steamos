@@ -16,11 +16,11 @@
     - or download KATE text editor from Discover store
  4) Open Konsole app (Terminla) and go to the folder where you downloaded or copy pasted the file
     - for example: cd ~/Downloads
- 5) now type: sudo cp fan-fix.service /etc/systemd/
+ 5) now type: `sudo cp fan-fix.service /etc/systemd/`
 
  The service is now in the correct place. Now you have to just start it and enable it to start in every boot:
 
  In Konsole type:    
  
- sudo systemctl --enable fan-fix.service
+ `sudo systemctl --enable fan-fix.service`
     
