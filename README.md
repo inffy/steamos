@@ -6,6 +6,8 @@
 
  This file fixes the bug in the Steam Decks fan controller. Currently (27th of April) there is a bug in the new fan controller which resets itself when Deck is put in Sleep mode.
  When the device is waken up, the fan controller won't use the new script to control the fan but just does what it wants.
+ 
+ You need to be on the BETA branch in SteamOS for this to work. Currently only the beta branch has the new fan control script.
 
 ## **INSTALL**
 
